@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 #Loading the saved model
-loaded_model = pickle.load(open('/Users/aloksharma/MachineLearning/DiabetesPrediction/dia_trained_model.sav','rb'))
+loaded_model = pickle.load(open('dia_trained_model.sav','rb'))
 
 
 input_data = (11,130,76,0,0,33.2,0.42,56)

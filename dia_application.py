@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #Loading the saved model
-loaded_model = pickle.load(open('/Users/aloksharma/MachineLearning/DiabetesPrediction/dia_trained_model.sav','rb'))
+loaded_model = pickle.load(open('dia_trained_model.sav','rb'))
 
 #Creating the function for prediction
 
